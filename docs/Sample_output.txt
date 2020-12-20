@@ -1,0 +1,160 @@
+Sample Output
+
+
+--------Function Display All--------
+Total no. of Companies: <n>
+Total no. of Directors : <m>
+
+---- function display companies ----
+1. company_01
+2. company_02
+3. company_03
+4. company_04
+5. company_05
+
+---- function display directors ----
+1. director_01
+2. director_02
+3. director_03
+4. director_04
+5. director_05
+6. director_06
+7. director_07
+8. director_08
+9. director_09
+10.director_10
+
+---- function display directors and associated companies ----
+
+1. Director Name: director_01
+   List of Companies:
+   1. company_ 01
+   2. company_ 05
+
+2. Director Name: <director_02>
+   List of Companies:
+   1. company_ 01
+   2. company_ 02
+3. Director Name: <director_03>
+   List of Companies:
+   1. <company_ 01>
+   2. <company_ 03>
+
+4. Director Name: <director_04>
+   List of Companies:
+   1. <company_ 01>
+   2. <company_ 04>
+
+5. Director Name: <director_05>
+   List of Companies:
+   1. <company_ 02>
+   2. <company_ 04>
+
+6. Director Name: <director_06>
+   List of Companies:
+   1. <company_ 03>
+   2. <company_ 05>
+
+7. Director Name: <director_07>
+   List of Companies:
+   1. <company_ 02>
+   2. <company_ 04>
+
+8. Director Name: <director_08>
+   List of Companies:
+   1. <company_ 03>
+
+9. Director Name: <director_09>
+   List of Companies:
+   1. <company_ 02>
+   2. <company_ 05>
+
+10.Director Name: <director_10>
+   List of Companies:
+   1. <company_ 03>
+
+---- function findDirectorConnet ----
+1. Company A: <company_01>
+   Company B: <company_02>
+   Related : Yes, <director_02>
+
+2. Company A: <company_01>
+   Company B: <company_03>
+   Related : Yes, <director_03>
+
+3. Company A: <company_01>
+   Company B: <company_04>
+   Related : yes, <director_04>
+
+4. Company A: <company_01>
+   Company B: <company_05>
+   Related : Yes, <director_01>
+
+5. Company A: <company_02>
+   Company B: <company_03>
+   Related : No
+   There are common directors between <company_02> and <company_03>
+
+6. Company A: <company_02>
+   Company B: <company_04>
+   Related : Yes, <director_05>
+
+7. Company A: <company_02>
+   Company B: <company_05>
+   Related : Yes, <director_09>
+
+8. Company A: <company_03>
+   Company B: <company_04>
+   Related : No
+   There are common directors between <company_03> and <company_04>
+
+9. Company A: <company_03>
+   Company B: <company_05>
+   Related : Yes, <director_06>
+
+10.Company A: <company_04>
+   Company B: <company_05>
+   Related : No
+   There are common directors between <company_04> and <company_05>
+
+---- function findReleatedCompany ----
+
+1. Company A: <company_01>
+   Company B: <company_02>
+   Related : Yes
+
+2. Company A: <company_01>
+   Company B: <company_03>
+   Related :
+
+3. Company A: <company_01>
+   Company B: <company_04>
+   Related :
+
+4. Company A: <company_01>
+   Company B: <company_05>
+   Related :
+
+5. Company A: <company_02>
+   Company B: <company_03>
+   Related :
+
+6. Company A: <company_02>
+   Company B: <company_04>
+   Related :
+
+7. Company A: <company_02>
+   Company B: <company_05>
+   Related :
+
+8. Company A: <company_03>
+   Company B: <company_04>
+   Related :
+
+9. Company A: <company_03>
+   Company B: <company_05>
+   Related :
+
+10. Company A: <company_04>
+    Company B: <company_05>
+    Related :
